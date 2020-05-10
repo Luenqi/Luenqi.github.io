@@ -1,95 +1,45 @@
 // Misc.
 	$misc: (
-		z-index-base:	10000
+		z-index-base:		10000,
+		main-side:			right,
+		main-align:			right,
+		thumbnails-per-row:	2
 	);
 
 // Duration.
 	$duration: (
-		navPanel: 0.5s
+		transition:			0.25s,
+		layout:				0.75s,
+		layout-alt:			0.5s,
+		slide:				0.5s,
+		spinner:			1s
 	);
 
 // Size.
 	$size: (
-		navPanel: 275px
+		border-radius:		4px,
+		border-width:		1px,
+		element-height:		2.75em,
+		element-margin:		1.25em,
+		main:				22.5em,
+		main-alt:			19em
 	);
 
 // Font.
 	$font: (
+		family:				('Roboto', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				400,
+		weight-bold:		700
 	);
 
 // Palette.
 	$palette: (
-		bg:				#f3f6fa,
-		fg:				#7c8081,
-		border:			transparentize(#7c8081, 0.8),
-
-		header: (
-			bg:			#fff,
-			fg:			inherit,
-			alt-bg:		transparent,
-			alt-fg:		#fff
-		),
-
-		banner: (
-			bg:			#898786,
-			fg:			#fff,
-			inner-bg:	#341b2b,
-			inner-fg:	#fff
-		),
-
-		footer: (
-			bg:			#E8EEF4,
-			fg:			#7c8081
-		),
-
-		one: (
-			bg:			#83d3c9,
-			fg:			#fff
-		),
-
-		two: (
-			bg:			#fff,
-			fg:			inherit
-		),
-
-		three: (
-			bg:			#645862,
-			fg:			#fff
-		),
-
-		navPanel: (
-			bg:			#1c2021,
-			fg:			#fff
-		),
-
-		navButton: (
-			bg:			rgba(163,169,170,0.75),
-			fg:			#fff
-		),
-
-		twitter: (
-			bg:			#70aecd,
-			fg:			#fff
-		),
-
-		facebook: (
-			bg:			#7490c3,
-			fg:			#fff
-		),
-
-		google-plus: (
-			bg:			#db6b67,
-			fg:			#fff
-		),
-
-		github: (
-			bg:			#dcad8b,
-			fg:			#fff
-		),
-
-		dribbble: (
-			bg:			#da83ae,
-			fg:			#fff
-		)
-
+		page-bg:			#101010,
+		bg:					#fff,
+		fg:					#aaa,
+		fg-bold:			#555,
+		fg-light:			#ccc,
+		border:				#ccc,
+		accent:				#00D3B7
 	);
