@@ -317,7 +317,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #4696e5;
+			color: #ffffff;
 		}
 
 	strong, b {
@@ -1968,7 +1968,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #4696e5;
+			background-color: #ffffff;
 			color: #ffffff !important;
 		}
 
@@ -2173,8 +2173,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4696e5;
-			box-shadow: 0 0 0 1px #4696e5;
+			border-color: #ffffff;
+			box-shadow: 0 0 0 1px #ffffff;
 		}
 
 	.select-wrapper:before {
@@ -2194,15 +2194,15 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #4696e5;
-		border-color: #4696e5;
+		background-color: #ffffff;
+		border-color: #ffffff;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #4696e5;
-		box-shadow: 0 0 0 1px #4696e5;
+		border-color: #ffffff;
+		box-shadow: 0 0 0 1px #ffffff;
 	}
 
 	::-webkit-input-placeholder {
@@ -2721,7 +2721,7 @@ input, select, textarea {
 
 		header.major:after {
 			content: '';
-			border-bottom: solid 2px #e6e6e6;
+			border-bottom: solid 2px #FFFFFF;
 			display: block;
 			width: 4em;
 			margin: 2em auto 0 auto;
@@ -2928,7 +2928,7 @@ input, select, textarea {
 			width: 50em;
 		}
 
-			.wrapper > .inner.alt > * {
+			.wrapper > .inner.alt >[] * {
 				border-top: solid 2px #eeeeee;
 				margin-bottom: 0;
 				margin-top: 3em;
@@ -2942,8 +2942,8 @@ input, select, textarea {
 				}
 
 		.wrapper.style1 {
-			background-color: #4696e5;
-			color: #d1e5f9;
+			background-color: #ffffff;
+			color: #5E5E5E;
 		}
 
 			.wrapper.style1 input[type="submit"],
@@ -2979,7 +2979,7 @@ input, select, textarea {
 				.wrapper.style1 .button.primary {
 					box-shadow: none;
 					background-color: #ffffff;
-					color: #4696e5 !important;
+					color: #ffffff !important;
 				}
 
 			.wrapper.style1 label {
@@ -3011,7 +3011,7 @@ input, select, textarea {
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #d1e5f9;
+				color: #5E5E5E;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -3024,7 +3024,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #4696e5;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
@@ -3058,7 +3058,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 .image {
-				box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+				box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px rgba(255, 255, 255, 0.25);
 			}
 
 				.wrapper.style1 .image.phone {
@@ -3106,7 +3106,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
-				color: #d1e5f9;
+				color: #5E5E5E;
 			}
 
 			.wrapper.style1 a {
@@ -3138,7 +3138,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #fbfbfb;
-			color: #999999;
+			color: #5e5e5e;
 		}
 
 			.wrapper.style2 input[type="submit"],
@@ -3146,9 +3146,9 @@ input, select, textarea {
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: transparent;
-				color: #828282 !important;
-				box-shadow: inset 0 0 0 2px #e6e6e6;
+				background-color: #5e5e5e;
+				color: #ffffff !important;
+				box-shadow: inset 0 0 0 2px #5e5e5e;
 			}
 
 				.wrapper.style2 input[type="submit"]:hover,
@@ -3156,7 +3156,7 @@ input, select, textarea {
 				.wrapper.style2 input[type="button"]:hover,
 				.wrapper.style2 button:hover,
 				.wrapper.style2 .button:hover {
-					background-color: rgba(144, 144, 144, 0.075);
+					background-color: rgba(94, 94, 94, 0.85);
 				}
 
 				.wrapper.style2 input[type="submit"]:active,
@@ -3164,7 +3164,7 @@ input, select, textarea {
 				.wrapper.style2 input[type="button"]:active,
 				.wrapper.style2 button:active,
 				.wrapper.style2 .button:active {
-					background-color: rgba(144, 144, 144, 0.15);
+					background-color: rgba(94, 94, 94, 0.6);
 				}
 
 				.wrapper.style2 input[type="submit"].primary,
@@ -3173,7 +3173,7 @@ input, select, textarea {
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
 					box-shadow: none;
-					background-color: #4696e5;
+					background-color: #ffffff;
 					color: #ffffff !important;
 				}
 
@@ -3212,8 +3212,8 @@ input, select, textarea {
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #4696e5;
-					box-shadow: 0 0 0 1px #4696e5;
+					border-color: #ffffff;
+					box-shadow: 0 0 0 1px #ffffff;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3233,15 +3233,15 @@ input, select, textarea {
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #4696e5;
-				border-color: #4696e5;
+				background-color: #ffffff;
+				border-color: #ffffff;
 				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #4696e5;
-				box-shadow: 0 0 0 1px #4696e5;
+				border-color: #ffffff;
+				box-shadow: 0 0 0 1px #ffffff;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -3326,7 +3326,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style2 a:hover {
-					color: #4696e5;
+					color: #ffffff;
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3334,7 +3334,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #828282;
+				color: #5e5e5e;
 			}
 
 			.wrapper.style2 blockquote {
@@ -3387,7 +3387,7 @@ input, select, textarea {
 				.wrapper.style3 button.primary,
 				.wrapper.style3 .button.primary {
 					box-shadow: none;
-					background-color: #4696e5;
+					background-color: #ffffff;
 					color: #ffffff !important;
 				}
 
@@ -3426,8 +3426,8 @@ input, select, textarea {
 				.wrapper.style3 input[type="email"]:focus,
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
-					border-color: #4696e5;
-					box-shadow: 0 0 0 1px #4696e5;
+					border-color: #ffffff;
+					box-shadow: 0 0 0 1px #ffffff;
 				}
 
 			.wrapper.style3 .select-wrapper:before {
@@ -3447,15 +3447,15 @@ input, select, textarea {
 
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
-				background-color: #4696e5;
-				border-color: #4696e5;
+				background-color: #ffffff;
+				border-color: #ffffff;
 				color: #ffffff;
 			}
 
 			.wrapper.style3 input[type="checkbox"]:focus + label:before,
 			.wrapper.style3 input[type="radio"]:focus + label:before {
-				border-color: #4696e5;
-				box-shadow: 0 0 0 1px #4696e5;
+				border-color: #ffffff;
+				box-shadow: 0 0 0 1px #ffffff;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3540,7 +3540,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style3 a:hover {
-					color: #4696e5;
+					color: #ffffff;
 				}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3611,8 +3611,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
-		color: #d1e5f9;
+		background-color: #ffffff;
+		color: #5E5E5E;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3639,9 +3639,9 @@ input, select, textarea {
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			background-color: transparent;
+			background-color: #5e5e5e;
 			color: #ffffff !important;
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0 0 0 2px rgba(94, 94, 94, 1);
 		}
 
 			#header input[type="submit"]:hover,
@@ -3649,7 +3649,7 @@ input, select, textarea {
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(94, 94, 94, 0.85);
 			}
 
 			#header input[type="submit"]:active,
@@ -3657,7 +3657,7 @@ input, select, textarea {
 			#header input[type="button"]:active,
 			#header button:active,
 			#header .button:active {
-				background-color: rgba(255, 255, 255, 0.2);
+				background-color: rgba(94, 94, 94, 0.6);
 			}
 
 			#header input[type="submit"].primary,
@@ -3666,8 +3666,8 @@ input, select, textarea {
 			#header button.primary,
 			#header .button.primary {
 				box-shadow: none;
-				background-color: #ffffff;
-				color: #4696e5 !important;
+				background-color: #5e5e5e;
+				color: #ffffff !important;
 			}
 
 		#header label {
@@ -3699,7 +3699,7 @@ input, select, textarea {
 
 		#header input[type="checkbox"] + label,
 		#header input[type="radio"] + label {
-			color: #d1e5f9;
+			color: #5E5E5E;
 		}
 
 			#header input[type="checkbox"] + label:before,
@@ -3712,7 +3712,7 @@ input, select, textarea {
 		#header input[type="radio"]:checked + label:before {
 			background-color: #ffffff;
 			border-color: #ffffff;
-			color: #4696e5;
+			color: #ffffff;
 		}
 
 		#header input[type="checkbox"]:focus + label:before,
@@ -3746,7 +3746,7 @@ input, select, textarea {
 		}
 
 		#header .image {
-			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px rgba(255, 255, 255, 0.25);
 		}
 
 			#header .image.phone {
@@ -3754,15 +3754,15 @@ input, select, textarea {
 			}
 
 				#header .image.phone .inner, #header .image.phone:before, #header .image.phone:after {
-					border-color: rgba(255, 255, 255, 0.25);
+					border-color: rgba(75, 75, 75, 0.5);
 				}
 
 				#header .image.phone .inner:before {
-					background: rgba(255, 255, 255, 0.25);
+					background: rgba(75, 75, 75, 0.5);
 				}
 
 				#header .image.phone .inner:after {
-					border-color: rgba(255, 255, 255, 0.25);
+					border-color: rgba(75, 75, 75, 0.5);
 				}
 
 		#header ul.alt > li {
@@ -3794,13 +3794,13 @@ input, select, textarea {
 		}
 
 		#header input, #header select, #header textarea {
-			color: #d1e5f9;
+			color: #5E5E5E;
 		}
 
 		#header a {
 			color: inherit;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
-			color: #ffffff;
+			color: #5e5e5e;
 		}
 
 		#header strong, #header b {
@@ -4092,7 +4092,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #4696e5;
+				color: #ffffff;
 			}
 
 		#footer strong, #footer b {
